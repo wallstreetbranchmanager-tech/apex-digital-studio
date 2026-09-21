@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apex AI Receptionist — The line that books while you work</title>
+  <meta name="description" content="24/7 AI receptionist for trades, clinics, and realty. Answers, qualifies, books the calendar, texts the recap. $997 setup + $297/mo." />
+  <meta name="theme-color" content="#070708" />
+  <link rel="canonical" href="https://apexdigital.studio/receptionist.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{ink:"#070708",gold:"#c9a36a",gold2:"#e3c48a",cream:"#f3eee4",mute:"#9a958b"},fontFamily:{serif:["Instrument Serif","Georgia","serif"],sans:["DM Sans","system-ui","sans-serif"]}}}}</script>
+  <style>
+    body{background:#070708}
+    .glass{background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);backdrop-filter:blur(16px)}
+    .btn-gold{background:linear-gradient(180deg,#e3c48a,#c9a36a);color:#1a140c;box-shadow:0 0 0 1px rgba(227,196,138,.35),0 10px 30px rgba(201,163,106,.18)}
+    :focus-visible{outline:2px solid #e3c48a;outline-offset:3px}
+    html{scroll-behavior:smooth}
+  </style>
+</head>
+<body class="font-sans text-cream antialiased pb-20 md:pb-0">
+  <header class="sticky top-0 z-40 border-b border-white/5 bg-ink/80 backdrop-blur">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-5 py-3.5">
+      <a href="index.html" class="text-[13px] font-semibold tracking-[0.2em] uppercase">Apex Digital Studio</a>
+      <a href="#book" class="btn-gold rounded-full px-4 py-2 text-[13px] font-semibold">Get the line</a>
+    </div>
+  </header>
+  <main class="mx-auto max-w-5xl px-5 py-16">
+    <p class="text-[12px] font-semibold uppercase tracking-[0.28em] text-gold">Paid-traffic page · AI receptionist</p>
+    <h1 class="mt-4 font-serif text-5xl leading-[0.95] md:text-7xl">They called once.<br /><em class="text-gold2">You were on a roof.</em></h1>
+    <p class="mt-6 max-w-xl text-lg text-mute">Apex receptionist answers, qualifies, books, texts the recap, and pings you when it is hot. After hours. Overflow. Saturday. $997 to stand it up. $297/mo to keep it on the line.</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href="#book" class="btn-gold rounded-full px-6 py-3 font-semibold">Install the line</a>
+      <a href="index.html" class="rounded-full border border-white/15 px-6 py-3">Full studio stack</a>
+    </div>
+    <section class="mt-16 grid gap-4 md:grid-cols-3">
+      <article class="glass rounded-3xl p-6"><h2 class="font-serif text-2xl">Answers</h2><p class="mt-2 text-sm text-mute">No voicemail graveyard. Script written like a competent human, not a phone tree.</p></article>
+      <article class="glass rounded-3xl p-6"><h2 class="font-serif text-2xl">Books</h2><p class="mt-2 text-sm text-mute">Calendar slot or dispatch window. SMS confirmation so they do not ghost.</p></article>
+      <article class="glass rounded-3xl p-6"><h2 class="font-serif text-2xl">Hands off</h2><p class="mt-2 text-sm text-mute">Hot job? It wakes a human. Everything else is logged so Monday is not archaeology.</p></article>
+    </section>
+    <section class="mt-16 glass rounded-3xl p-8">
+      <h2 class="font-serif text-3xl">Who this is for</h2>
+      <ul class="mt-4 grid gap-2 text-sm text-mute md:grid-cols-2">
+        <li>— HVAC, roofing, plumbing, electrical</li>
+        <li>— Dental, med spa, clinic front desk overflow</li>
+        <li>— Realty teams that bleed speed-to-lead</li>
+        <li>— Dispatch shops that cannot staff nights</li>
+      </ul>
+    </section>
+    <section id="book" class="mt-16 grid gap-8 md:grid-cols-2">
+      <div>
+        <h2 class="font-serif text-4xl">Stand it up this week.</h2>
+        <p class="mt-3 text-mute">Tell us the offer, the hours, and what a hot call sounds like.</p>
+        <p class="mt-6 font-serif text-4xl text-gold2">$997 + $297/mo</p>
+      </div>
+      <form class="glass rounded-3xl p-6" action="https://formspree.io/f/your-id" method="POST">
+        <input type="hidden" name="source" value="receptionist-lander" />
+        <label class="block text-sm">Name<input required name="name" class="mt-2 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3" /></label>
+        <label class="mt-4 block text-sm">Email<input required type="email" name="email" class="mt-2 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3" /></label>
+        <label class="mt-4 block text-sm">Trade / niche<input name="niche" class="mt-2 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3" /></label>
+        <button class="btn-gold mt-6 w-full rounded-full py-3 font-semibold">Request install</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
